@@ -41,12 +41,13 @@ This project uses a content-based recommendation system
 -  similarity.pkl      # Similarity matrix
 -  TMDB_all_movies     # Dataset file
 
+## Dataset Used:
+https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates
 
 ## API Used
 OMDb API (for IMDb ratings, posters, and links)
 
-You can get your own API key from:
-👉 http://www.omdbapi.com/
+You can get your own API key from: http://www.omdbapi.com/
 
 ## Replace in app.py:
 
