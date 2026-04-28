@@ -35,11 +35,11 @@ This project uses a content-based recommendation system
 - Requests (OMDb API)
 
 ## Project Structure
--  app.py              # Streamlit web app (UI + recommendations)
--  model.py            # Data processing & model building
--  movies.pkl          # Processed movie dataset
--  similarity.pkl      # Similarity matrix
--  TMDB_all_movies     # Dataset file
+-  app.py                # Streamlit web app (UI + recommendations)
+-  model.py              # Data processing & model building
+-  movies.pkl            # Processed movie dataset (created after running model.py)
+-  similarity.pkl        # Similarity matrix (created after running model.py)
+-  TMDB_all_movies       # Dataset file
 
 ## Dataset Used:
 https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates
