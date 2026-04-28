@@ -64,3 +64,6 @@ API_KEY = "your_api_key_here"
 - Enhance UI/UX
 ## Author
 Utsav Makhija
+## License
+
+This project is for **educational purposes**.
