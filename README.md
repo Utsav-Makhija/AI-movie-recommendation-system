@@ -41,7 +41,7 @@ This project uses a content-based recommendation system
 -  similarity.pkl        # Similarity matrix (created after running model.py)
 -  TMDB_all_movies       # Dataset file
 
-## Dataset Used:
+## Dataset Used
 https://www.kaggle.com/datasets/alanvourch/tmdb-movies-daily-updates
 
 ## API Used
@@ -49,7 +49,7 @@ OMDb API (for IMDb ratings, posters, and links)
 
 You can get your own API key from: http://www.omdbapi.com/
 
-## Replace in app.py:
+## Replace in app.py
 
 API_KEY = "your_api_key_here"
 
@@ -57,14 +57,16 @@ API_KEY = "your_api_key_here"
 - Works only on available dataset (top ~10,000 movies)
 - Recommendations are based on content, not user preferences
 - Requires exact or partial movie name match
+
 ## Future Improvements
 - Add collaborative filtering
 - Improve search with fuzzy matching
 - Deploy on cloud (Streamlit Cloud / AWS / Render)
 - Add user login & watch history
 - Enhance UI/UX
+
 ## Author
 Utsav Makhija
-## License
 
+## License
 This project is for **educational purposes**.
